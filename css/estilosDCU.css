@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    background-color: #E6F7FF; /* Celeste claro pastel */
+    color: #2F4F4F; /* Color oscuro para el texto */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-image: url("../imagenes/headerCe.jpg");
+    width: 100%;
+    color: rgb(30, 94, 102);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Menú de navegación */
+.navbar {
+    background-color: #B3E0F0; /* Celeste pastel */
+}
+
+.navbar .btn {
+    background-color: #80C6E0; /* Celeste medio */
+    color: white;
+    transition: background-color 0.3s;
+    border-color: #80C6E0; /* Celeste medio */
+}
+
+.navbar .btn:hover {
+    background-color: #4DA0B0; /* Celeste más oscuro al pasar el cursor */
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white; 
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos de sección */
+h2 {
+    color: #408585; 
+}
+
+#que_es {
+    text-align: center;
+}
+
+#etapas h2 {
+    text-align: center; 
+}
+
+
+#Beneficios h2{
+    text-align: center;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #80C6E0; /* Celeste medio */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4DA0B0; /* Celeste más oscuro */
+}
+
+/* Estilos para formularios */
+.form-control {
+    border: 1px solid #A0D8E0; /* Celeste claro */
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border-color: #80C6E0; /* Celeste medio */
+}
+
+/* Mensajes de error */
+.text-danger {
+    color: #D9534F; /* Mantiene el color rojo para los errores */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #B3E0F0; /* Celeste pastel */
+    color: #2F4F4F; 
+}
+
+/* Citas */
+.fuente {
+    text-align: left; 
+    opacity: 0.8;
+}
+
+/* Botón flotante */
+.btn-flotante {
+    font-size: 10px; /* Cambiar el tamaño de la tipografía */
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Borde del botón */
+    background-color: #4DA0B0; /* Celeste más oscuro */
+    padding: 18px 30px; /* Relleno del botón */
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.btn-flotante:hover {
+    background-color: #356B4F; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
